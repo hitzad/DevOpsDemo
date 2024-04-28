@@ -3,7 +3,7 @@ export class GuiModel {
 
     private _guiModel = {
         "application": {
-            "title": "DevOpsDemo FS2024",
+            "title": "Fussballclub FS2024 - Adrian Hitz",
             "formList": [
                 {
                     "id": "OwnUserForm",
@@ -54,20 +54,20 @@ export class GuiModel {
                 },
                 {
                     "id": "ToDoForm",
-                    "title": { default: "ToDo" },
-                    "url": "/todo",
+                    "title": { default: "Fussballclub Adrian Hitz" },
+                    "url": "/fc",
                     "formFieldList": [
                         {
                             "id":   "title",
                             "type": "text",
-                            "name": { default: "Titel" },
+                            "name": { default: "Erfolge" },
                             "required": true,
                             "width": 2
                         },
                         {
                             "id": "description",
                             "type": "text",
-                            "name": { default: "Text" },
+                            "name": { default: "nennenswerte Erfolge" },
                             "newRow": true,
                             "maxLength": 4000,
                             "height": 4,
@@ -95,12 +95,21 @@ export class GuiModel {
                     "elementList": [
                         {
                             "type": "pageLabel",
-                            "value": "<h4>Willkommen bei DevOps</h4>",
+                            "value": "<h4>Willkommen Fussballclub Erfolge von Adrian Hitz</h4>",
                             "newRow": true
                         },
                         {
                             "type": "button",
-                            "name": { default: "ToDo-List" },
+                            "name": { default: "Erfolge" },
+                            "icon": "fa-file-alt",
+                            "color": "wet-asphalt",
+                            "page": "toDoPage",
+                            "width": 2,
+                            "newRow": true,
+                        },
+                        {
+                            "type": "button",
+                            "name": { default: "Persönliche Erfolge" },
                             "icon": "fa-file-alt",
                             "color": "wet-asphalt",
                             "page": "toDoPage",
@@ -117,7 +126,7 @@ export class GuiModel {
                         },
                         {
                             "type": "newButton",
-                            "name": { default: "Neues ToDo"},
+                            "name": { default: "Neues Erfolge"},
                             "icon": "fa-user",
                             "color": "green",
                             "width": 2,
