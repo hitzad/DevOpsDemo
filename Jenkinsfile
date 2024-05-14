@@ -4,6 +4,7 @@ stages {
 stage('Checkout') {
 steps {
 sh 'echo checkout'
+checkout scmGit(branches: [[name: '*/main']], extensions: [], userRemoteConfigs: [[url: 'https://github.com/hitzad/DevOpsDemo']])
 }
 }
 stage('Test') {
