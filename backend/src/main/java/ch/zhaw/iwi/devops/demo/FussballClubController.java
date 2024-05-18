@@ -28,7 +28,7 @@ public class FussballClubController {
         this.fussballClubs.put(1, new FussballClub(1, "Real Madrid", "14 Tiel"));
         this.fussballClubs.put(2, new FussballClub(2, "Manchester City", "1 Titel"));
         this.fussballClubs.put(3, new FussballClub(3, "Arsenal FC", "3 Titel"));
-        this.fussballClubs.put(4, new FussballClub(4, "FC Barcelona", "5 Titel"));
+        this.fussballClubs.put(4, new FussballClub(4, "FC Aarau", "5 Titel"));
         this.fussballClubs.put(5, new FussballClub(5, "FC St. Gallen", "0 Titel"));
         System.out.println("Init Data");
     }
