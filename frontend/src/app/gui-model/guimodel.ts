@@ -3,7 +3,7 @@ export class GuiModel {
 
     private _guiModel = {
         "application": {
-            "title": "Fussballclub FS2024 - Adrian Hitz",
+            "title": "Abschluss DevOps 2024! Hat mich gefreut",
             "formList": [
                 {
                     "id": "OwnUserForm",
@@ -54,7 +54,7 @@ export class GuiModel {
                 },
                 {
                     "id": "ToDoForm",
-                    "title": { default: "Fussballclub Adrian Hitz" },
+                    "title": { default: "Fussballclub Adrian Hitz: Bayer Leverkusen Best Team 2024" },
                     "url": "/fc",
                     "formFieldList": [
                         {
@@ -95,12 +95,12 @@ export class GuiModel {
                     "elementList": [
                         {
                             "type": "pageLabel",
-                            "value": "<h4>Willkommen Fussballclub Erfolge von Adrian Hitz</h4>",
+                            "value": "<h4> Byebye Devops! Willkommen Fussballclub Erfolge von Adrian Hitz</h4>",
                             "newRow": true
                         },
                         {
                             "type": "button",
-                            "name": { default: "Erfolge" },
+                            "name": { default: "EAufwiedersehen" },
                             "icon": "fa-file-alt",
                             "color": "wet-asphalt",
                             "page": "toDoPage",
