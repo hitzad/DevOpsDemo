@@ -3,7 +3,7 @@ export class GuiModel {
 
     private _guiModel = {
         "application": {
-            "title": "Abschluss DevOps 2024! Hat mich gefreut",
+            "title": "Abschluss DevOps 2025! Hat mich gefreut, DEVOPS FINISH 25.05.2025",
             "formList": [
                 {
                     "id": "OwnUserForm",
@@ -54,7 +54,7 @@ export class GuiModel {
                 },
                 {
                     "id": "ToDoForm",
-                    "title": { default: "Fussballclub Adrian Hitz: Bayer Leverkusen Best Team 2024" },
+                    "title": { default: "Fussballclub Adrian Hitz: Bayer Leverkusen Best Team 2024, DEVOPS FINISH 25.05.2025" },
                     "url": "/fc",
                     "formFieldList": [
                         {
@@ -95,7 +95,7 @@ export class GuiModel {
                     "elementList": [
                         {
                             "type": "pageLabel",
-                            "value": "<h4> Byebye Devops! Willkommen Fussballclub Erfolge von Adrian Hitz</h4>",
+                            "value": "<h4> Byebye Devops, DEVOPS FINISH 25.05.2025! Willkommen Fussballclub Erfolge von Adrian Hitz</h4>",
                             "newRow": true
                         },
                         {
